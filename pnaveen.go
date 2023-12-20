@@ -16,6 +16,6 @@ func BigBark() string {
 	return dnaveen.WhenGrownUp(Bark())
 }
 
-func BigBarsk() string {
+func BigBarks() string {
 	return dnaveen.WhenGrownUp(Barks())
 }
