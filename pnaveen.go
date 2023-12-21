@@ -1,6 +1,8 @@
 package pnaveen
 
 import (
+	"fmt"
+
 	"github.com/NaveenMolakathalla/dnaveen"
 )
 
@@ -18,4 +20,8 @@ func BigBark() string {
 
 func BigBarks() string {
 	return dnaveen.WhenGrownUp(Barks())
+}
+
+func From10() {
+	fmt.Println("Im from version 1.0.0")
 }
